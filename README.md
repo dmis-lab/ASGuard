@@ -1,10 +1,10 @@
 # ASGuard: Activation-Scaling Guard to Mitigate Targeted Jailbreaking Attack
 
 ## Overview
-Large language models (LLMs) often display brittle refusal behaviors that can be bypassed by simple linguistic variations, such as tense jailbreaking. ASGuard (Activation-Scaling Guard) introduces a mechanistically-informed framework to address this vulnerability with precision and interpretability.
-(1) Circuit Analysis: Identifies attention heads causally linked to tense-based jailbreaking.
-(2) Activation Scaling: Learns channel-wise scaling vectors to recalibrate vulnerable heads.
-(3) Preventative Fine-Tuning: Reinforces robust refusal mechanisms while preserving model utility.
+Large language models (LLMs) often display brittle refusal behaviors that can be bypassed by simple linguistic variations, such as tense jailbreaking. ASGuard (Activation-Scaling Guard) introduces a mechanistically-informed framework to address this vulnerability with precision and interpretability.    
+(1) Circuit Analysis: Identifies attention heads causally linked to tense-based jailbreaking.    
+(2) Activation Scaling: Learns channel-wise scaling vectors to recalibrate vulnerable heads.    
+(3) Preventative Fine-Tuning: Reinforces robust refusal mechanisms while preserving model utility.    
 Evaluated across multiple LLMs, ASGuard achieves a Pareto-optimal tradeoff between safety and general capabilities, effectively reducing attack success rates while minimizing over-refusal. This work highlights how mechanistic insights can be translated into practical, efficient, and targeted safety interventions, advancing reliable and interpretable AI alignment.
 
 ![](assets/overview_1.png)
