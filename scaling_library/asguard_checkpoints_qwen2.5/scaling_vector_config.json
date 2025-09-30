@@ -1,0 +1,6 @@
+{
+    "model_name": "qwen2.5-7b",
+    "target_heads": "a14h2,a24h27,a25h9,a26h19,a26h2,a26h27,a5h19",
+    "learning_rate": 0.05,
+    "epochs": 3
+}

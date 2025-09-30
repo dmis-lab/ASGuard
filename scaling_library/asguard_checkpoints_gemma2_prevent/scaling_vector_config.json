@@ -1,0 +1,6 @@
+{
+    "model_name": "gemma2-9b",
+    "target_heads": "a0h3,a1h15,a12h7,a2h3,a22h7,a26h8,a34h8,a4h12,a7h12",
+    "learning_rate": 0.09,
+    "epochs": 9
+}

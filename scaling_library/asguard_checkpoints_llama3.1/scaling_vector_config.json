@@ -1,0 +1,6 @@
+{
+    "model_name": "llama3.1-8b",
+    "target_heads": "a0h3,a10h19,a10h25,a13h18,a13h25,a13h30,a13h8,a14h14,a16h30,a19h11,a7h14",
+    "learning_rate": 0.05,
+    "epochs": 3
+}
